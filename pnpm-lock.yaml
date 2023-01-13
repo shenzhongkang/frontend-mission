@@ -6,7 +6,9 @@ specifiers:
   '@types/react-dom': ^18.0.9
   '@vitejs/plugin-react-swc': ^3.0.0
   antd: ^5.1.4
+  chart.js: ^4.1.2
   react: ^18.2.0
+  react-chartjs-2: ^5.2.0
   react-dom: ^18.2.0
   react-router-dom: ^6.6.2
   sass: ^1.57.1
@@ -16,7 +18,9 @@ specifiers:
 dependencies:
   '@ant-design/icons': 5.0.0_biqbaboplfbrettd7655fr4n2y
   antd: 5.1.4_biqbaboplfbrettd7655fr4n2y
+  chart.js: 4.1.2
   react: 18.2.0
+  react-chartjs-2: 5.2.0_mfjxiilvrceiwtanada6fxhije
   react-dom: 18.2.0_react@18.2.0
   react-router-dom: 6.6.2_biqbaboplfbrettd7655fr4n2y
 
@@ -326,6 +330,10 @@ packages:
     dev: true
     optional: true
 
+  /@kurkle/color/0.3.2:
+    resolution: {integrity: sha512-fuscdXJ9G1qb7W8VdHi+IwRqij3lBkosAm4ydQtEmbY58OzHXqQhvlxqEkoz0yssNVn38bcpRWgA9PP+OGoisw==}
+    dev: false
+
   /@rc-component/context/1.3.0_biqbaboplfbrettd7655fr4n2y:
     resolution: {integrity: sha512-6QdaCJ7Wn5UZLJs15IEfqy4Ru3OaL5ctqpQYWd5rlfV9wwzrzdt6+kgAQZV/qdB0MUPN4nhyBfRembQCIvBf+w==}
     peerDependencies:
@@ -608,6 +616,13 @@ packages:
     dependencies:
       fill-range: 7.0.1
     dev: true
+
+  /chart.js/4.1.2:
+    resolution: {integrity: sha512-9L1w6WLPq6ztiWVVOYtDtpo0CUsBKDWPrUEdwChAyzczaikqeSwNKEv3QpJ7EO4ICcLSi6UDVhgvcnUhRJidRA==}
+    engines: {pnpm: ^7.0.0}
+    dependencies:
+      '@kurkle/color': 0.3.2
+    dev: false
 
   /chokidar/3.5.3:
     resolution: {integrity: sha512-Dr3sfKRP6oTcjf2JmUmFJfeVMvXBdegxB0iVQ5eb2V10uFJUCAS8OByZdVAyVb8xXNz3GjjTgj9kLWsZTqE6kw==}
@@ -1339,6 +1354,16 @@ packages:
       rc-util: 5.27.1_biqbaboplfbrettd7655fr4n2y
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
+    dev: false
+
+  /react-chartjs-2/5.2.0_mfjxiilvrceiwtanada6fxhije:
+    resolution: {integrity: sha512-98iN5aguJyVSxp5U3CblRLH67J8gkfyGNbiK3c+l1QI/G4irHMPQw44aEPmjVag+YKTyQ260NcF82GTQ3bdscA==}
+    peerDependencies:
+      chart.js: ^4.1.1
+      react: ^16.8.0 || ^17.0.0 || ^18.0.0
+    dependencies:
+      chart.js: 4.1.2
+      react: 18.2.0
     dev: false
 
   /react-dom/18.2.0_react@18.2.0:
