@@ -2,6 +2,8 @@
 
 See `<rootDir>/docs` for more details.
 
+![overview](https://raw.githubusercontent.com/shenzhongkang/frontend-mission/main/docs/result.jpg)
+
 ## Tech Stack
 
 - Pnpm
