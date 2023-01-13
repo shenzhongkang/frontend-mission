@@ -1,5 +1,7 @@
 # Frontend Exercise
 
+See `<rootDir>/docs` for more details.
+
 ## Tech Stack
 
 - Pnpm
